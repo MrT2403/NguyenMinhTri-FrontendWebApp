@@ -12,7 +12,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
       router.push("/login");
     }
   }, [router]);
-
+  
   return <Component {...pageProps} />;
 };
 
